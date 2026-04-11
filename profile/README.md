@@ -19,6 +19,7 @@ Meridian計画ではコア開発メンバーの皆さんを集めて毎月～隔
 - [Meridian Console](https://github.com/Ninagawa123/Meridian_console)
 
 > TODO: 既存のMeridianコアパッケージの追加
+- [Meridian info](https://ninagawa123.github.io/Meridian_info) : データや関数のドキュメント（内容がすでに古いので作り直す必要あるがたたきとして）
 
 ## 開発への貢献について
 
