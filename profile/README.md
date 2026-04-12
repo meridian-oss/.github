@@ -20,6 +20,7 @@ Meridian計画ではコア開発メンバーの皆さんを集めて毎月～隔
 
 > TODO: 既存のMeridianコアパッケージの追加
 - [Meridian info](https://ninagawa123.github.io/Meridian_info) : データや関数のドキュメント（内容がすでに古いので作り直す必要あるがたたきとして）
+- [.clang-format](https://github.com/Ninagawa123/Meridian_LITE/blob/main/Meridian_LITE_for_ESP32/.clang-format) : 現行のC++系コーディングルール
 
 ## 開発への貢献について
 
