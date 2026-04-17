@@ -1,0 +1,107 @@
+name: Development Task
+description: Development task template / 単機能・実装作業用テンプレート
+labels: "enhancement"
+type: Task
+projects: meridian-oss/1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Define a concrete development task.
+        具体的な開発タスクを記載してください。
+
+        This issue should represent a single, actionable unit of work.
+        本 Issue は「1つの作業単位」を表すことを想定しています。
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective / 目的
+      description: |
+        Describe what this task is intended to achieve.
+        このタスクの目的を簡潔に記載してください。
+      placeholder: |
+        - Implement a specific feature or behavior
+          / 特定の機能・挙動を実装する
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Target Environment / 想定環境
+      description: |
+        Describe the environment where this task will be executed or validated.
+        このタスクを実施・検証する想定環境を記載してください。
+      placeholder: |
+        - OS, platform, or runtime
+          / OS・プラットフォーム・実行環境
+        - Hardware or simulator (if applicable)
+          / ハードウェアやシミュレータ（該当する場合）
+    validations:
+      required: false
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints & Conditions / 制約・条件
+      description: |
+        Describe constraints, rules, or conditions that must be respected.
+        守るべき制約や条件があれば記載してください。
+      placeholder: |
+        - Must be compatible with existing interfaces
+          / 既存インタフェースとの互換性を保つ必要がある
+        - Performance, resource, or timing constraints
+          / 性能・リソース・時間的な制約
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Task Details (How) / 作業内容（方法）
+      description: |
+        Describe how the task will be carried out.
+        Focus on actions, changes, or approaches.
+
+        このタスクを「どのように進めるか」を記載してください。
+        作業手順や変更内容に着目してください。
+      placeholder: |
+        - Modify the control logic in module X
+          / モジュールXの制御ロジックを修正する
+        - Add configuration parameter Y
+          / 設定パラメータYを追加する
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of Done (What) / 完了条件（結果）
+      description: |
+        Define observable and verifiable conditions that indicate completion.
+        Avoid describing implementation steps.
+
+        このタスクが「完了した」と判断できる状態を記載してください。
+        実装手順は書かないでください。
+      placeholder: |
+        - Feature behaves as expected in the target environment
+          / 想定環境で期待通りに動作する
+        - Related tests pass without errors
+          / 関連テストがすべて成功する
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / 補足
+      description: |
+        Add any additional context if needed.
+        補足事項があれば記載してください。
+      placeholder: |
+        - Related plan, issue, or pull request
+          / 関連する Plan / Issue / PR
+    validations:
+      required: false

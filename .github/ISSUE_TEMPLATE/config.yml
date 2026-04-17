@@ -1,0 +1,20 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: 💬 Questions, Suggestions & Discussions (Discord)
+    url: https://discord.gg/rGahEK9c2x
+    about: >
+      For questions, consultations, or suggestions for improvements and fixes
+      to existing programs, please contact us on Discord.
+      /
+      質問・相談、既存プログラムに対する改良案や修正案については、
+      Discord でご連絡ください。
+
+  - name: 📖 Official Documentation & Project Pages
+    url: https://meridian-oss.github.io/
+    about: >
+      Please check the official documentation and project pages
+      before opening an issue.
+      /
+      Issue を作成する前に、各レポジトリのドキュメントや
+      公式ページをご確認ください。

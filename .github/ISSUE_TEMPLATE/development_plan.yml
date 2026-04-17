@@ -1,0 +1,79 @@
+name: Development Plan
+description: Development planning template / 開発計画・検討用テンプレート
+labels: "enhancement"
+type: Feature
+projects: meridian-oss/1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Define a development plan before implementation.
+        実装に入る前の開発計画・検討内容を記載してください。
+
+        This issue is intended for planning, discussion, and alignment.
+        Implementation tasks should be created separately if needed.
+        本 Issue は計画・議論・合意形成を目的としています。
+        実装作業は必要に応じて Task として切り出してください。
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals / ゴール
+      description: |
+        List the objectives of this development plan.
+        この開発計画で達成したい目標を列挙してください。
+      placeholder: |
+        - Goal 1: The primary objective of this plan
+          / この計画の主目的
+        - Goal 2: Secondary objectives or constraints
+          / 副次的な目標や条件
+        - Goal 3: Expected long-term outcome
+          / 長期的に目指す成果
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope & Assumptions / スコープ・前提
+      description: |
+        Describe what is in scope and the assumptions made.
+        対象範囲や前提条件を記載してください。
+      placeholder: |
+        - What is included / excluded
+          / 含める内容・含めない内容
+        - Assumptions made at this stage
+          / 現時点での前提
+    validations:
+      required: true
+
+  - type: textarea
+    id: challenges
+    attributes:
+      label: Challenges & Risks / 課題・リスク
+      description: |
+        Describe risks, unknowns, or open questions.
+        想定される課題、不確実性、未解決事項を記載してください。
+      placeholder: |
+        - Technical feasibility is uncertain
+          / 技術的な成立性が未確認
+        - Design choices may affect later tasks
+          / 設計判断が後続作業に影響する可能性
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References & Prior Work / 参考情報・既存検討
+      description: |
+        Provide background materials or prior investigations.
+        参考資料やこれまでの検討内容を記載してください。
+      placeholder: |
+        - Related documentation or designs
+          / 関連ドキュメントや設計資料
+        - Previous discussions or experiments
+          / 過去の議論や検証結果
+    validations:
+      required: false

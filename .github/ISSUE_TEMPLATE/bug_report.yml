@@ -1,0 +1,92 @@
+name: Bug Report
+description: Bug report template / 不具合報告用テンプレート
+labels: "bug"
+type: Bug
+projects: meridian-oss/1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please report a bug you encountered.
+        発生した不具合について報告してください。
+
+        Providing clear and reproducible information helps us
+        identify and fix the issue more efficiently.
+        再現性のある分かりやすい情報を記載していただくことで、
+        問題の特定と修正が容易になります。
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug Summary / 不具合の概要
+      description: |
+        Briefly describe what the problem is.
+        不具合の内容を簡潔に記載してください。
+      placeholder: |
+        - What happened
+          / 何が起きたか
+        - What you expected to happen
+          / 本来期待していた動作
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 実行環境
+      description: |
+        Provide details about the environment where the issue occurred.
+        不具合が発生した環境情報を記載してください。
+      placeholder: |
+        - OS:
+          / OS:
+        - Software / Version:
+          / 使用ソフトウェア・バージョン:
+        - Hardware (if relevant):
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / 再現手順
+      description: |
+        Describe the steps to reproduce the issue.
+        不具合を再現するための手順を記載してください。
+      placeholder: |
+        1. Do something
+           / ○○を実行する
+        2. Perform the next action
+           / 次に△△を行う
+        3. Observe the issue
+           / 問題が発生する
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior / 期待される動作
+      description: |
+        Describe what you expected to happen.
+        本来期待していた動作を記載してください。
+      placeholder: |
+        - The system should behave like this
+          / このように動作するはず
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior / 実際の動作
+      description: |
+        Describe what actually happened.
+        実際に発生した動作を記載してください。
+      placeholder: |
+        - The system behaves like this instead
+          / 実際にはこのような動作をした
+    validations:
+      required: true
+
