@@ -14,11 +14,11 @@ Meridian計画ではコア開発メンバーの皆さんを集めて毎月～隔
 
 ## Meridianのコアパッケージ
 
+<!-- Meridianコアパッケージを随時追加する -->
+
 - [Meridian LITE](https://github.com/Ninagawa123/Meridian_LITE)
 - [Meridian TWIN](https://github.com/Ninagawa123/Meridian_TWIN)
 - [Meridian Console](https://github.com/Ninagawa123/Meridian_console)
-
-> TODO: 既存のMeridianコアパッケージの追加
 - [Meridian info](https://ninagawa123.github.io/Meridian_info) : データや関数のドキュメント（内容がすでに古いので作り直す必要あるがたたきとして）
 - [.clang-format](https://github.com/Ninagawa123/Meridian_LITE/blob/main/Meridian_LITE_for_ESP32/.clang-format) : 現行のC++系コーディングルール
 
@@ -30,5 +30,5 @@ Meridian計画ではコア開発メンバーの皆さんを集めて毎月～隔
 
 すでにプログラムを修正し取り込んでほしい場合は、GitHubのプルリクエストという機能を使って、コードの修正を提案してみてください。
 
-> TODO: GitHubの機能説明に関する記述追加  
-> TODO: Meridian計画の開発フロー追加
+<!-- TODO: GitHubの機能説明に関する記述追加  -->
+<!-- TODO: Meridian計画の開発フロー追加 -->
