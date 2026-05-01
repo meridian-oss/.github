@@ -1,5 +1,4 @@
-Meridianプロジェクト 開発チーム向け公式ページ
-=====
+# Meridianプロジェクト 開発チーム向け公式ページ
 
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/meridian_jp)  
 公式サイト: [Meridian計画](https://meridian-oss.github.io/)
@@ -16,11 +15,17 @@ Meridian計画ではコア開発メンバーの皆さんを集めて毎月～隔
 
 <!-- Meridianコアパッケージを随時追加する -->
 
+現在、Meridianプロジェクトのコミュニティが管理しているレポジトリは、当該OSSの[レポジトリ一覧](https://github.com/orgs/meridian-oss/repositories)からご確認下さい。
+
+### 個人管理のコアパッケージ
+
+OSSコミュニティ発足の前より @ninagawa123 氏によってMeridianは開発されてきました。
+以下のパッケージについては、個人レポジトリとしての管理になっていますので、フォークやコミット先にご注意下さい。
+
 - [Meridian LITE](https://github.com/Ninagawa123/Meridian_LITE)
 - [Meridian TWIN](https://github.com/Ninagawa123/Meridian_TWIN)
 - [Meridian Console](https://github.com/Ninagawa123/Meridian_console)
 - [Meridian info](https://ninagawa123.github.io/Meridian_info) : データや関数のドキュメント（内容がすでに古いので作り直す必要あるがたたきとして）
-- [.clang-format](https://github.com/Ninagawa123/Meridian_LITE/blob/main/Meridian_LITE_for_ESP32/.clang-format) : 現行のC++系コーディングルール
 
 ## 開発への貢献について
 
@@ -28,7 +33,7 @@ Meridian計画ではコア開発メンバーの皆さんを集めて毎月～隔
 
 [Discord /robot](https://discord.gg/rGahEK9c2x) : 「meridian開発2026スレ」にて新規スレッドを立ててください。
 
-すでにプログラムを修正し取り込んでほしい場合は、GitHubのプルリクエストという機能を使って、コードの修正を提案してみてください。
+すでにプログラムを修正しおり、それらの変更を取り込んでほしい場合は、GitHubのプルリクエストという機能を使って、コードの修正を提案してください。
+各レポジトリへのコントリビューションの方法については [CONTRIBUTING.md](/CONTRIBUTING.md) に記載しています。
 
 <!-- TODO: GitHubの機能説明に関する記述追加  -->
-<!-- TODO: Meridian計画の開発フロー追加 -->
