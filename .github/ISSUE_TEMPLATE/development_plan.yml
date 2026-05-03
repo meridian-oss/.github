@@ -17,6 +17,16 @@ body:
         実装作業は必要に応じて Task として切り出してください。
 
   - type: textarea
+    id: motivation
+    attributes:
+      label: Context / 背景
+      description: |
+        What problem does this solve? Why is it needed?
+        なぜこの機能が必要か、解決したい課題。
+    validations:
+      required: true
+
+  - type: textarea
     id: goals
     attributes:
       label: Goals / ゴール

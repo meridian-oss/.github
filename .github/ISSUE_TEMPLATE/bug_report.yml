@@ -48,23 +48,6 @@ body:
       required: true
 
   - type: textarea
-    id: steps
-    attributes:
-      label: Steps to Reproduce / 再現手順
-      description: |
-        Describe the steps to reproduce the issue.
-        不具合を再現するための手順を記載してください。
-      placeholder: |
-        1. Do something
-           / ○○を実行する
-        2. Perform the next action
-           / 次に△△を行う
-        3. Observe the issue
-           / 問題が発生する
-    validations:
-      required: true
-
-  - type: textarea
     id: expected
     attributes:
       label: Expected Behavior / 期待される動作
@@ -90,3 +73,19 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / 再現手順
+      description: |
+        Describe the steps to reproduce the issue.
+        不具合を再現するための手順を記載してください。
+      placeholder: |
+        1. Do something
+           / ○○を実行する
+        2. Perform the next action
+           / 次に△△を行う
+        3. Observe the issue
+           / 問題が発生する
+    validations:
+      required: true

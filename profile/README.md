@@ -1,9 +1,9 @@
-# Meridianプロジェクト 開発チーム向け公式ページ
+# Meridian計画/Project Meridian 開発チーム向け公式ページ
 
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/meridian_jp)  
 公式サイト: [Meridian計画](https://meridian-oss.github.io/)
 
-## Meridian-OSS Organization について
+## Meridian OSS Organization について
 
 このOrganizationは、Meirian計画の開発に協力いただけるコア開発メンバーの方々を中心に、現在の開発状況・進捗やスケジュールの確認、プログラムの課題管理や開発計画の拠点となるページです。
 

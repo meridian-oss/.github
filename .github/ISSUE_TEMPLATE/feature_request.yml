@@ -1,0 +1,52 @@
+name: Feature Request
+description: Propose a new feature or enhancement
+labels: "enhancement"
+type: Feature
+projects: meridian-oss/1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposal for **new features or enhancements**.
+        新しい機能や拡張の提案用テンプレートです。
+
+        Feedback on existing behavior should use the Feedback template.
+        既存実装への指摘は Feedback を使用してください。
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / 概要
+      description: |
+        Short description of the requested feature.
+        要望する機能の概要。
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Context / 背景
+      description: |
+        What problem does this solve? Why is it needed?
+        なぜこの機能が必要か、解決したい課題。
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution / 提案内容
+      description: |
+        Expected behavior or interface.
+        想定している挙動やインターフェース。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered / 代替案
+      description: |
+        Other approaches you considered, if any.
+        検討した他の案があれば。
+

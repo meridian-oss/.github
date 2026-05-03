@@ -1,3 +1,3 @@
 # .github
 
-Main page of the Meridian OSS Project
+Default Community Health Files for the Meridian OSS Organization

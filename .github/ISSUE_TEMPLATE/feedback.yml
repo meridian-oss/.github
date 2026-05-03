@@ -1,0 +1,69 @@
+name: Feedback
+description: Feedback on existing design, implementation, or behavior
+labels: "enhancement"
+type: Feature
+projects: meridian-oss/1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feedback for **existing** design, implementation, or behavior.
+        既存の設計・実装・挙動に対するフィードバック用テンプレートです。
+
+        This is not for proposing new features.
+        新しい機能の提案には Feature Request を使用してください。
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / 概要
+      description: |
+        Short description of the feedback.
+        フィードバック内容の概要。
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / 背景
+      description: |
+        Where this feedback came from (review, implementation, testing, etc.)
+        このフィードバックが生じた背景（レビュー、実装、テストなど）
+      placeholder: |
+        - Found during PR review
+        - Noticed while implementing module X
+
+  - type: textarea
+    id: current_state
+    attributes:
+      label: Current Behavior / 現状
+      description: |
+        Describe the current design, implementation, or behavior.
+        現在の設計・実装・挙動について記載してください。
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback / フィードバック内容
+      description: |
+        Concerns, limitations, or possible improvements.
+        Immediate action is not required.
+        懸念点、制限、改善案など（今すぐ対応する必要はありません）。
+    validations:
+      required: true
+
+  - type: textarea
+    id: importance
+    attributes:
+      label: Why this matters / なぜ重要か
+      description: |
+        Why this is worth tracking as an issue.
+        なぜ Issue として記録する価値があるか。
+
+  - type: input
+    id: related
+    attributes:
+      label: Related links (optional) / 関連リンク（任意）
+      description: PR, commit, discussion, documentation, etc.
